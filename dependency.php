@@ -15,7 +15,7 @@ if( ! class_exists( 'AcrossWP_WooCommerce_Dependency' ) ) {
             printf( 
                 __( 
                     '<strong>%s</strong></a> requires the WooCommerce plugin to work. Please <a href="https://wordpress.org/plugins/woocommerce/" target="_blank">install WooCommerce</a> first.',
-                    'wordpress-plugin-boilerplate'
+                    'acrosswp'
                 ),
                 $this->get_plugin_name()
             );
@@ -29,7 +29,7 @@ if( ! class_exists( 'AcrossWP_WooCommerce_Dependency' ) ) {
             printf( 
                 __( 
                     '<strong>%s</strong></a> requires WooCommerce plugin version %s or higher to work. Please update WooCommerce.',
-                    'wordpress-plugin-boilerplate'
+                    'acrosswp'
                 ),
                 $this->get_plugin_name(),
                 $this->mini_version()
